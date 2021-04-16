@@ -10,7 +10,7 @@
 namespace konst {
 
 auto delimiter(char const dc, size_t sl) -> std::string const {
-  auto const dlm = std::string(80, '-');
+  auto const dlm = std::string(sl, dc);
   return dlm;
 }
 

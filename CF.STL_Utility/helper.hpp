@@ -47,6 +47,8 @@
 #include <any>
 #include <stdexcept>
 #include <cctype>
+#include <clocale>
+#include <cinttypes>
 
 #if (__cplusplus > 201707L)
 
